@@ -1,0 +1,85 @@
+/*style novoPost*/
+
+.container-blog {
+    display: flex;
+    width: 40%;
+    height: 90vh;
+    margin: 5vh auto;
+    background-color: #6AA5A9;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 8%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.input-formulario {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1vh;
+    margin: 2vh 0;
+}
+
+.input-formulario:focus {
+    background-color: #A3D2D5;
+    border: 3px solid #3F7856;
+    outline: none;
+}
+
+button {
+    background-color: #55898d;
+    border: none;
+    padding: 2vh;
+    margin: 2vh 0;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: #A3D2D5;
+    font-weight: bold;
+}
+
+.botao-formulario {
+    display: flex;
+    justify-content: end;
+}
+
+/*style listagemPostAdmin*/
+
+table {
+justify-self: center;
+}
+
+table , td, th {
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 3px;
+	width: 35vh;
+	height: 25px;
+    text-align: center;
+}
+
+th {
+	background: #A3D2D5;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}
+
+.topoPagina{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6vh;
+
+}
+
+/*paleta de cores*/
+
+body{
+    background-color: #45625D ;
+}

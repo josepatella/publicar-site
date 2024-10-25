@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Blog Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container-blog">
+
+        <form id="gerarPostagem">
+            <h1>Criar uma Postagem</h1>
+            <div class="elemento-formulario">
+                <div class="">
+                    <label for="titulo" class="label-formulario">Título</label>
+                </div>
+                <div class="">
+                    <input type="text" id="titulo" class="input-formulario" placeholder="Digite um título">
+                </div>
+            </div>
+
+            <div class="elemento-formulario">
+                <div class="">
+                    <label for="descricao" class="">Descrição</label>
+                </div>
+                <div class="">
+                    <textarea id="descricao" class="input-formulario" rows="8" cols="58"></textarea>
+                </div>
+            </div>
+
+            <div class="elemento-formulario">
+                <div class="">
+                    <label for="categoria" class="">Categoria</label>
+                </div>
+                <div class="">
+                    <select id="categoria" name="categoria" class="input-formulario">
+                        <option value=""></option>
+                        <option value="cachorro">CÃES</option>
+                        <option value="gato">GATOS</option>
+                        <option value="passaro">PASSAROS</option>
+                        <option value="diverso">DIVERSOS</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="elemento-formulario">
+                <div class="">
+                    <label for="foto">Foto do pet</label>
+                </div>
+                <div class="">
+                    <input type="url" id="foto" name="foto" class="input-formulario">
+                </div>
+            </div>
+            <div class="botao-formulario">
+                <button type="submit" class="btn btn-outline-primary"">Criar postagem</button>
+            </div>
+
+            </form>
+    
+        </section>
+        <script src="novoPost.js"></script>
+</body>
+</html>
